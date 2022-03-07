@@ -1,0 +1,83 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Compose and send an email with the given body and subject",
+        "description": "",
+        "id": "test-the-compose-function-in-gmail;compose-and-send-an-email-with-the-given-body-and-subject",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11638165560,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on gmail homepage",
+            "match": {
+              "location": "StepDefComposeMail.user_is_on_gmail_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12308337596,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should click on compose button",
+            "match": {
+              "location": "StepDefComposeMail.user_should_click_on_compose_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18706659025,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters To and Body and Subject",
+            "match": {
+              "location": "StepDefComposeMail.user_enters_To_and_Body_and_Subject()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6148678795,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should click on send button",
+            "match": {
+              "location": "StepDefComposeMail.user_should_click_on_send_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 336618522,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user need to verify the mail is sent or not",
+            "match": {
+              "location": "StepDefComposeMail.user_need_to_verify_the_mail_is_sent_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test the compose function in Gmail",
+    "description": "",
+    "id": "test-the-compose-function-in-gmail",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/Compose.feature",
+    "tags": []
+  }
+]
